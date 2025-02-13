@@ -1,0 +1,53 @@
+/* Apply styles to the body for font and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Style header & footer with same background */
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style navigation */
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    background-color: #444;
+    color: white;
+    padding: 8px 12px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+nav a:hover, nav a:focus {
+    background-color: #ff6600; /* Change background on hover */
+}
+
+/* Change the color of the main heading */
+.site-title {
+    color: #ff6600;
+}
+
+/* Add a box shadow to the image */
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+/* Change hobby list bullets to squares */
+.hobbies {
+    list-style-type: square;
+}
+
+/* Add background to odd list items in hobbies */
+.hobbies li:nth-child(odd) {
+    background-color: #f0f0f0;
+}
